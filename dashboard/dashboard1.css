@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    background: url('../dashboard/gambar/bg2.jpeg') no-repeat center center/cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+}
+
+.movies-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.movie-card {
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
